@@ -41,7 +41,8 @@ li {
   color: white;
   border: 1px solid #0000e6;
   border-radius: 3px;
-  text-decoration: none; }
+  text-decoration: none;
+  display: inline-block; }
   .button:hover {
     background-color: cyan;
     color: blue; }
@@ -71,3 +72,6 @@ li {
         color: white; }
         .header .header__nav .header__nav--ul .header__nav--item .header__nav--link:hover {
           color: cyan; }
+      .header .header__nav .header__nav--ul .header__nav--item.translate {
+        position: absolute;
+        right: 10%; }

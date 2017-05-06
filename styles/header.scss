@@ -23,6 +23,11 @@
                         color: $cyan;
                     }
                 }
+
+                &.translate {
+                    position: absolute;
+                    right: 10%;
+                }
             }
         }
     }

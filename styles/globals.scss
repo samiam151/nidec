@@ -43,6 +43,7 @@ li {
     border: 1px solid darken($blue, 5%);
     border-radius: 3px;
     text-decoration: none;
+    display: inline-block;
     
     &:hover {
         background-color: $cyan;
