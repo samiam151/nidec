@@ -35,17 +35,36 @@
             <h2>Immediate Info</h2>
             
             <!-- Name -->
-            <div class="newForm__input">
-                <label for="new_where">Name: </label>
+            <div class="settledForm__input">
+                <label for="settled_where">Name: </label>
                 <input type="text" name="new_name" placeholder="" required>
             </div>
 
-            <!-- Needs -->
+            <!-- How Long -->
+            <div class="settledForm__input">
+                <label for="settled_howlong">How long have you been in the country?</label>
+                <select name="settled_howlong" id="">
+                    <option value="0"></option>
+                    <option value="1">0 - 3 Months</option>
+                    <option value="2">4 - 6 Months</option>
+                    <option value="3">Over 6 Months</option>
+                </select>
+            </div>
 
+            <!-- Needs -->
+            <div class="settledForm__input">
+                <label for="settled_needs">What are your need?</label>
+                <select name="settled_needs" id="">
+                    <option value="0"></option>
+                    <option value="1">Social &amp; Community Assistance</option>
+                    <option value="2">Education &amp; Economic Help</option>
+                    <option value="3">Civil &amp; Legal Assistance</option>
+                </select>
+            </div>
 
             <!-- Contact Info -->
             <h2>Contact Info</h2>
-            <div class="newForm__input">
+            <div class="settledForm__input">
                 <label for="phone">Phone: </label>
                 <input type="tel">
             </div>

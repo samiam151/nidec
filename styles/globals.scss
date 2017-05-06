@@ -34,3 +34,18 @@ li {
     width: 85%;
     margin: 0 auto;
 }
+
+.button {
+    padding: 5px 10px;
+    text-transform: uppercase;
+    background-color: $blue;
+    color: white;
+    border: 1px solid darken($blue, 5%);
+    border-radius: 3px;
+    text-decoration: none;
+    
+    &:hover {
+        background-color: $cyan;
+        color: $blue;
+    }
+}

@@ -34,6 +34,18 @@ li {
   width: 85%;
   margin: 0 auto; }
 
+.button {
+  padding: 5px 10px;
+  text-transform: uppercase;
+  background-color: blue;
+  color: white;
+  border: 1px solid #0000e6;
+  border-radius: 3px;
+  text-decoration: none; }
+  .button:hover {
+    background-color: cyan;
+    color: blue; }
+
 .header {
   background-color: grey; }
   .header .header__nav .header__nav--ul {
