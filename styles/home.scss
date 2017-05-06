@@ -12,6 +12,14 @@
 
         .firstQuestion__title {
             font-size: 4em;
+            color: white;
+            text-shadow: 1px 2px 1px black;
+        }
+
+        .firstQuestion__question {
+            font-weight: 700;
+            font-size: 1.3em;
+            margin-bottom: 0.6em;
         }
 
         .firstQuestion__answers {
@@ -27,4 +35,10 @@
         }
     }
 
+}
+
+.about {
+    img {
+        width: 100%;
+    }
 }
