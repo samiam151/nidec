@@ -41,4 +41,28 @@
     img {
         width: 100%;
     }
+
+    .pdf {
+        position: absolute;
+        right: 90px;
+
+        a {
+            color: white;
+            text-align: right;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            margin-top: 4px;
+            
+            &:hover {
+                color: $cyan;
+            }
+
+            i {
+                margin-top: 8px;
+                font-size: 1.3em;
+                margin-left: 8px;
+            }
+        }
+    }
 }

@@ -64,3 +64,10 @@ li {
         color: $blue;
     }
 }
+
+.form-title {
+    // color: $cyan;
+    border-bottom: 3px solid $cyan;
+    display: inline-block;
+    padding-right: 2em;
+}

@@ -64,6 +64,11 @@ li {
     background-color: cyan;
     color: blue; }
 
+.form-title {
+  border-bottom: 3px solid cyan;
+  display: inline-block;
+  padding-right: 2em; }
+
 .header {
   background-color: grey;
   box-shadow: 0 0px 15px black; }
@@ -167,6 +172,27 @@ li {
 
 .about img {
   width: 100%; }
+
+.about .pdf {
+  position: absolute;
+  right: 90px; }
+  .about .pdf a {
+    color: white;
+    text-align: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    margin-top: 4px; }
+    .about .pdf a:hover {
+      color: cyan; }
+    .about .pdf a i {
+      margin-top: 8px;
+      font-size: 1.3em;
+      margin-left: 8px; }
 
 .form h2 {
   margin-top: 0.5em; }
