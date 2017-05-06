@@ -1,1 +1,30 @@
 /// <refernce path="./styles.scss">
+
+.firstQuestion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding-top: 2em;
+    
+    .firstQuestion__cont {
+        text-align: center;
+
+        .firstQuestion__title {
+            font-size: 4em;
+        }
+
+        .firstQuestion__answers {
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
+
+            .firstQuestion__answers--button {
+                width: 33%;
+                margin-bottom: 6px;
+                margin: 5px 7px;
+            }
+        }
+    }
+
+}

@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://use.fontawesome.com/0caac26b18.js"></script>
     <link rel="stylesheet" href="styles/styles.css">
     <title>NIDEC</title>
 </head>
 <body>
-    <div class="background">
+   
     <!-- Header -->
     <header class="header">
         <nav class="header__nav container">
@@ -28,28 +29,41 @@
                 <li class="header__nav--item">
                     <a href="settled.html" class="header__nav--link">Settled Immigrant</a>
                 </li>
-                <li class="header__nav--item translate">
+                
+            </ul>
+
+            <ul class="icons">
+                <li class="translate">
                     <div id="google_translate_element"></div>  
                 </li>
+                <li><i class="fa fa-facebook-square"></i></li>
+                <li><i class="fa fa-snapchat-square"></i></li>
+                <li><i class="fa fa-whatsapp"></i></li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i></li>
             </ul>
         </nav>
     </header>
-
+ <div class="background">
+     <div class="matte">
     <div class="container">
         <!-- First Question -->
         <div class="firstQuestion fade-in">
-            <p class="firstQuestion__title">Tell us about yourself!</p>
-            <p class="firstQuestion__question">How long have you been in the country?</p>
-            <div class="firstQuestion__answers">  
-                <a href="new.html" class="firstQuestion__buttons--button button">Have Not Arrived</a>
-                <a href="new.html" class="firstQuestion__buttons--button button">In Tranist</a>
-                <a href="new.html" class="firstQuestion__buttons--button button">Just Got Here</a>
-                <a href="settled.html" class="firstQuestion__buttons--button button">0 - 3 Months</a>
-                <a href="settled.html" class="firstQuestion__buttons--button button">4 - 6 Months</a>
-                <a href="settled.html" class="firstQuestion__buttons--button button">Over 6 Months</a>
+            <div class="firstQuestion__cont">
+                <p class="firstQuestion__title">Tell us about yourself!</p>
+                <p class="firstQuestion__question">How long have you been in the country?</p>
+                <div class="firstQuestion__answers">  
+                    <a href="new.html" class="firstQuestion__answers--button button">Have Not Arrived</a>
+                    <a href="new.html" class="firstQuestion__answers--button button">In Tranist</a>
+                    <a href="new.html" class="firstQuestion__answers--button button">Just Got Here</a>
+                    <a href="settled.html" class="firstQuestion__answers--button button">0 - 3 Months</a>
+                    <a href="settled.html" class="firstQuestion__answers--button button">4 - 6 Months</a>
+                    <a href="settled.html" class="firstQuestion__answers--button button">Over 6 Months</a>
+                </div>
             </div>
         </div>
     </div>
+    </div>
+</div>
 
 <script type="text/javascript">
     function googleTranslateElementInit() {
@@ -59,6 +73,5 @@
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 
-</div>
 </body>
 </html>

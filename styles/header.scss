@@ -4,13 +4,39 @@
     background-color: $grey;
     box-shadow: 0 0px 15px black;
 
+    &:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%)
+    }
+
     .header__nav {
+        display: flex;
+        justify-content: space-between;
+
+        .icons {
+            display: flex;
+            align-items: center;
+            li i {
+                color: white;
+                font-size: 1.5em;
+                margin-left:0.7em;
+
+                &:hover {
+                    color: $cyan;
+                    cursor: pointer;
+                }
+            }
+        }
+
         .header__nav--ul {
             display: flex;
             flex-flow: row wrap;
             align-items: center;
             justify-content: flex-start;
-            padding: 8px 0;
+            padding: 4px 0;
 
             .header__nav--item {
                 margin-right: 1em;              
@@ -22,9 +48,9 @@
                     text-transform: uppercase;
                     
                     &.logo {
-                        font-size: 1.5em;
+                        font-size: 2em;
                         color: $cyan;
-                        letter-spacing: 0.05em;
+                        letter-spacing: 0.15em;
                         font-weight: 700;
                     }
 
