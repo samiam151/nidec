@@ -32,33 +32,33 @@
             </ul>
 
             <ul class="icons">
-                <li class="translate">
-                    <div id="google_translate_element"></div>  
-                </li>
                 <li><i class="fa fa-facebook-square"></i></li>
                 <li><i class="fa fa-snapchat-square"></i></li>
                 <li><i class="fa fa-whatsapp"></i></li>
                 <li><i class="fa fa-phone" aria-hidden="true"></i></li>
+                <li class="translate">
+                    <div id="google_translate_element"></div>  
+                </li>
             </ul>
         </nav>
     </header>
 
-    <div class="container">
+    <div class="container fade-in">
         <h1>Settled Immigrants</h1>
 
-        <div class="settledForm">
+        <div class="settledForm form">
             <h2>Immediate Info</h2>
             
             <!-- Name -->
-            <div class="settledForm__input">
-                <label for="settled_where">Name: </label>
-                <input class="input" type="text" name="new_name" placeholder="" required>
+            <div class="settledForm__input form__input">
+                <!--<label for="settled_where">Name: </label>-->
+                <input class="input" type="text" name="new_name" placeholder="Name" required>
             </div>
 
             <!-- How Long -->
-            <div class="settledForm__input">
+            <div class="settledForm__input form__input">
                 <label for="settled_howlong">How long have you been in the country?</label>
-                <select class="input" name="settled_howlong" id="">
+                <select class="input" name="settled_howlong" id="" placeholder="How Long?">
                     <option value="0"></option>
                     <option value="1">0 - 3 Months</option>
                     <option value="2">4 - 6 Months</option>
@@ -67,8 +67,8 @@
             </div>
 
             <!-- Needs -->
-            <div class="settledForm__input">
-                <label for="settled_needs">What are your need?</label>
+            <div class="settledForm__input form__input">
+                <label for="settled_needs">What are your needs?</label>
                 <select class="input" name="settled_needs" id="">
                     <option value="0"></option>
                     <option value="1">Social &amp; Community Assistance</option>
@@ -79,18 +79,18 @@
 
             <!-- Contact Info -->
             <h2>Contact Info</h2>
-            <div class="settledForm__input">
-                <label for="phone">Phone: </label>
-                <input class="input" type="tel">
+            <div class="settledForm__input form__input">
+                <!--<label for="phone">Phone: </label>-->
+                <input class="input" type="tel" placeholder="Phone Number">
             </div>
 
-            <div class="newForm__input">
-                <label for="email">Email: </label>
-                <input class="input" type="email">
+            <div class="newForm__input form__input">
+                <!--<label for="email">Email: </label>-->
+                <input class="input" type="email" placeholder="Email Address">
             </div>
 
             <!-- Submit -->
-            <a href="#" class="button">Submit</a>
+            <a href="response.html" class="button">Submit</a>
 
         </div>
     

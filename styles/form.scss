@@ -1,0 +1,16 @@
+.form {
+    h2 {
+        margin-top: 0.5em;
+    }
+    .form__input {
+        margin-top: 4px;
+    }
+}
+
+.input {
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    min-width: 25em;
+    display: block;
+}

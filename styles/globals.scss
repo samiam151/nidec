@@ -35,12 +35,16 @@ li {
     to   { opacity: 1; }
 }
 .fade-in {
-    animation: fadein 2s;
+    animation: fadein 1.25s;
 }
 
 .container {
     width: 85%;
     margin: 0 auto;
+    padding-top: 2em;
+    &.header__nav {
+        padding-top: 0;
+    }
 }
 
 .button {
@@ -52,14 +56,11 @@ li {
     border-radius: 3px;
     text-decoration: none;
     display: inline-block;
+    font-weight: 700;
+    margin-top: 6px;
     
     &:hover {
         background-color: $cyan;
         color: $blue;
     }
-}
-
-.input {
-    border-radius: 2px;
-    border: 1px solid #ccc;
 }
