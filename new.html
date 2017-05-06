@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="page--new">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,52 +44,66 @@
         </nav>
     </header>
 
-    <div class="container fade-in">
+    <div class="fade-in">
         <h1 class="newForm__title form-title">New Immigrants</h1>
+        <p class="instructions">This form is designed to determine the type of assistance you need. After completion, you will receive a response in a timely manner.</p>
         
-        <div class="newForm form">
-            <h2>Immediate Info</h2>
-            <!-- Name -->
-            <div class="newForm__input form__input">
-                <!--<label for="new_where">Name: </label>-->
-                <input class="input" type="text" name="new_name" placeholder="Name" required>
+        <div class="flex-cont">
+            <div class="newForm form">
+                <h2>Immediate Info</h2>
+
+                <!-- Name -->
+                <div class="newForm__input form__input">
+                    <!--<label for="new_where">Name: </label>-->
+                    <input class="input" type="text" name="new_name" placeholder="Name" required>
+                </div>
+
+                <!-- Where -->
+                <div class="newForm__input form__input">
+                    <!--<label for="new_where">Where are you?</label>-->
+                    <input class="input" type="text" name="new_where" placeholder="Where are you?" required>
+                </div>
+
+                <!-- Needs -->
+                <div class="newForm__input form__input">
+                    <label for="#newNeeds">What are your needs?</label>
+                    <select class="input" name="settled_needs" id="">
+                        <option value="0"></option>
+                        <option value="1">Someone to talk to</option>
+                        <option value="2">Transportation</option>
+                        <option value="3">Immediate Assistance</option>
+                    </select>
+                </div>
+
+                <!-- Final Destination -->
+                <div class="newForm__input form__input">
+                    <!--<label for="new_dest">What's your final destination?</label>-->
+                    <input class="input" type="text" placeholder="What's your final destination?">
+                </div>
+                
+
+                <!-- Contact Info -->
+                <h2>Contact Info</h2>
+                <div class="newForm__input form__input">
+                    <!--<label for="phone">Phone: </label>-->
+                    <input class="input" type="tel" placeholder="Phone Number">
+                </div>
+
+                <div class="newForm__input form__input">
+                    <!--<label for="email">Email: </label>-->
+                    <input class="input" type="email" placeholder="Email Address">
+                </div>
+
+                <!-- Submit -->
+                <a href="response.html" class="button">Submit</a>
             </div>
 
-            <!-- Where -->
-            <div class="newForm__input form__input">
-                <!--<label for="new_where">Where are you?</label>-->
-                <input class="input" type="text" name="new_where" placeholder="Where are you?" required>
-            </div>
-
-            <!-- Needs -->
-            <div class="newForm__input form__input">
-                <label for="#newNeeds">What are your needs?</label>
-
-            </div>
-
-            <!-- Final Destination -->
-            <div class="newForm__input form__input">
-                <!--<label for="new_dest">What's your final destination?</label>-->
-                <input class="input" type="text" placeholder="What's your final destination?">
-            </div>
             
-
-            <!-- Contact Info -->
-            <h2>Contact Info</h2>
-            <div class="newForm__input form__input">
-                <!--<label for="phone">Phone: </label>-->
-                <input class="input" type="tel" placeholder="Phone Number">
-            </div>
-
-            <div class="newForm__input form__input">
-                <!--<label for="email">Email: </label>-->
-                <input class="input" type="email" placeholder="Email Address">
-            </div>
-
-            <!-- Submit -->
-            <a href="response.html" class="button">Submit</a>
         </div>
-
+    </div>
+    <div class="imageInstructions">
+        <!-- <h1>tese</h1> -->
+        <img src="assets/contact-compressed.jpeg" alt="">
     </div>
 
 <script type="text/javascript">
