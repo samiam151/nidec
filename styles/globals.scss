@@ -31,8 +31,8 @@ li {
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { filter: blur(5px); opacity: 0; }
+    to   { filter: blur(0px); opacity: 1; }
 }
 .fade-in {
     animation: fadein 1.25s;

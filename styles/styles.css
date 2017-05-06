@@ -20,14 +20,22 @@ li {
 
 @-webkit-keyframes fadein {
   from {
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
     opacity: 0; }
   to {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
     opacity: 1; } }
 
 @keyframes fadein {
   from {
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
     opacity: 0; }
   to {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
     opacity: 1; } }
 
 .fade-in {
