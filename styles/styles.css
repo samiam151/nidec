@@ -39,8 +39,8 @@ li {
     opacity: 1; } }
 
 .fade-in {
-  -webkit-animation: fadein 1.25s;
-          animation: fadein 1.25s; }
+  -webkit-animation: fadein 1s;
+          animation: fadein 1s; }
 
 .container {
   width: 85%;
