@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald";
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px; }
+
+body {
+  min-height: 99vh; }
+
+li {
+  list-style-type: none; }
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fade-in {
+  -webkit-animation: fadein 0.3s;
+          animation: fadein 0.3s; }
+
+.container {
+  width: 85%;
+  margin: 0 auto; }
+
+.header {
+  background-color: grey; }
+  .header .header__nav .header__nav--ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 8px 0; }
+    .header .header__nav .header__nav--ul .header__nav--item {
+      margin-right: 10px; }
+      .header .header__nav .header__nav--ul .header__nav--item .header__nav--link {
+        text-decoration: none;
+        font-size: 1.5em;
+        color: white; }
+        .header .header__nav .header__nav--ul .header__nav--item .header__nav--link:hover {
+          color: cyan; }

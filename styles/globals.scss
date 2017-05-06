@@ -1,0 +1,36 @@
+/// <refernce path="./styles.scss">
+
+
+// Globals
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald";
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    // background-image: linear-gradient(to top, $blue 0%, $cyan 100%);
+    min-height: 99vh;
+}
+
+li {
+    list-style-type: none;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.fade-in {
+    animation: fadein 0.3s;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}

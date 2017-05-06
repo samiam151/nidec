@@ -1,0 +1,29 @@
+/// <refernce path="./styles.scss">
+
+.header {
+    background-color: $grey;
+
+    .header__nav {
+        .header__nav--ul {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 8px 0;
+
+            .header__nav--item {
+                margin-right: 10px;
+
+                .header__nav--link {
+                    text-decoration: none;
+                    font-size: 1.5em;
+                    color: $white;
+                    
+                    &:hover {
+                        color: $cyan;
+                    }
+                }
+            }
+        }
+    }
+}

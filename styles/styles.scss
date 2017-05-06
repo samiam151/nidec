@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+// Variables
+$cyan: cyan;
+$blue: blue;
+$grey: grey;
+$white: white;
+
+@import 'globals.scss';
+@import "header.scss";
+@import "home.scss";
