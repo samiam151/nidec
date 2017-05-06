@@ -745,3 +745,19 @@
         });
     }
 }());
+
+(function(){
+    if (window.location.pathname === "/response.html" || window.location.pathname === "/nidec/response.html"){
+        console.log('here...');
+        setTimeout(function(){
+            window.location.pathname = '/about.html';
+        }, 5000);
+    }
+
+    if ( window.location.pathname === "/nidec/response.html"){
+        console.log('here...');
+        setTimeout(function(){
+            window.location.pathname = '/nidec/about.html';
+        }, 5000);
+    }
+}());

@@ -238,9 +238,11 @@ li {
 
 .response__cont {
   text-align: center;
-  padding-top: 8%; }
+  padding-top: 6%; }
   .response__cont h1 {
     font-size: 3em; }
+  .response__cont h3 {
+    margin-bottom: 1em; }
   .response__cont .response__content {
     margin-top: 0.75em;
     font-size: 1.5em; }
