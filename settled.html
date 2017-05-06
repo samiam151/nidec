@@ -12,9 +12,12 @@
     <header class="header">
         <nav class="header__nav container">
             <ul class="header__nav--ul">
-                <li class="header__nav--item">
-                    <a href="index.html" class="header__nav--link">Home</a>
+                <li class="header__nav--item logo">
+                    <a href="index.html" class="header__nav--link logo">NIDEC</a>
                 </li>
+                <!--<li class="header__nav--item">
+                    <a href="index.html" class="header__nav--link">Home</a>
+                </li>-->
                 <li class="header__nav--item">
                     <a href="about.html" class="header__nav--link">About NIDEC</a>
                 </li>
@@ -41,13 +44,13 @@
             <!-- Name -->
             <div class="settledForm__input">
                 <label for="settled_where">Name: </label>
-                <input type="text" name="new_name" placeholder="" required>
+                <input class="input" type="text" name="new_name" placeholder="" required>
             </div>
 
             <!-- How Long -->
             <div class="settledForm__input">
                 <label for="settled_howlong">How long have you been in the country?</label>
-                <select name="settled_howlong" id="">
+                <select class="input" name="settled_howlong" id="">
                     <option value="0"></option>
                     <option value="1">0 - 3 Months</option>
                     <option value="2">4 - 6 Months</option>
@@ -58,7 +61,7 @@
             <!-- Needs -->
             <div class="settledForm__input">
                 <label for="settled_needs">What are your need?</label>
-                <select name="settled_needs" id="">
+                <select class="input" name="settled_needs" id="">
                     <option value="0"></option>
                     <option value="1">Social &amp; Community Assistance</option>
                     <option value="2">Education &amp; Economic Help</option>
@@ -70,12 +73,12 @@
             <h2>Contact Info</h2>
             <div class="settledForm__input">
                 <label for="phone">Phone: </label>
-                <input type="tel">
+                <input class="input" type="tel">
             </div>
 
             <div class="newForm__input">
                 <label for="email">Email: </label>
-                <input type="email">
+                <input class="input" type="email">
             </div>
 
             <!-- Submit -->
