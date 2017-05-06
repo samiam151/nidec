@@ -8,7 +8,10 @@
 html {
   font-size: 16px; }
 
-body {
+.background {
+  background-image: url("../assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 99vh; }
 
 li {
@@ -27,8 +30,8 @@ li {
     opacity: 1; } }
 
 .fade-in {
-  -webkit-animation: fadein 0.3s;
-          animation: fadein 0.3s; }
+  -webkit-animation: fadein 1s;
+          animation: fadein 1s; }
 
 .container {
   width: 85%;
@@ -52,7 +55,8 @@ li {
   border: 1px solid #ccc; }
 
 .header {
-  background-color: grey; }
+  background-color: grey;
+  box-shadow: 0 0px 15px black; }
   .header .header__nav .header__nav--ul {
     display: -webkit-box;
     display: -ms-flexbox;

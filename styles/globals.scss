@@ -15,6 +15,13 @@ html {
 
 body {
     // background-image: linear-gradient(to top, $blue 0%, $cyan 100%);
+    // min-height: 99vh;
+}
+
+.background {
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     min-height: 99vh;
 }
 
@@ -27,7 +34,7 @@ li {
     to   { opacity: 1; }
 }
 .fade-in {
-    animation: fadein 0.3s;
+    animation: fadein 1s;
 }
 
 .container {
